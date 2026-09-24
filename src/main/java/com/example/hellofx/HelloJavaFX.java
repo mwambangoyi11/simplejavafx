@@ -26,6 +26,7 @@ public class HelloJavaFX extends Application {
         // Event Handler for Start Button
         startButton.setOnAction(event ->
                 message.setText("Great! You clicked Start.")
+        );
 
         // Event Handler for Reset Button
         resetButton.setOnAction(event ->
